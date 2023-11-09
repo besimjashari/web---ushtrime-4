@@ -4,6 +4,7 @@
 }
 
 header{
+    flex-direction: row;
     display: flex;
     justify-content: space-between;
     text-decoration-style: none;
@@ -39,3 +40,24 @@ header ul li{
     background-size: cover;
     opacity: 1;
 }
+
+
+.latestvideo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    color: rgb(111, 198, 227);
+    margin: 0px 50px;
+}
+
+.fotografit{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.rubrika{
+}
+
