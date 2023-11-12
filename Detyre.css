@@ -51,13 +51,96 @@ header ul li{
     color: rgb(111, 198, 227);
     margin: 0px 50px;
 }
+.butoni_bg{
+    border: none;
+    background-color:rgb(47, 185, 178) ;
+    width: 40px;
+    height: 20px;
+    margin: 0px;
+}
+.rubrika img{
+    width: 250px;
+}
 
 .fotografit{
     display: flex;
-    justify-content: center;
-    align-items:center ;
-    
+    margin: 0px 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
-.rubrika{
+.views_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: rgb(208, 208, 208);
 }
 
+.permifooter{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+.btn_prev_next{
+    border: none;
+    padding: 5px;
+
+}
+
+.btn_prev_next{
+    border: none;
+    padding: 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 100px;
+    background-color: rgb(220, 220, 220);
+    justify-content: space-between;
+}
+
+.f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: lightseagreen;
+}
+.ff img{
+    height: 30px;
+    padding-left: 20px;
+}
+.footermain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(155, 155, 155);
+    
+}
+.footerleft{
+    width: 350px;
+}
+.footercenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.fundi{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(155, 155, 155);
+}
